@@ -6,23 +6,30 @@ primos existentes entre 0 e 1.000.000. Utilize threads para cada faixa de 1000 v
 thread e dispare o processo para cada uma delas.
 
 ## Como rodar a solução (Linux/MacOS/WSL)
-Certifique-se de que o `make` está instalado. No Linux e no WSL (Ubuntu/Debian):
+Certifique-se de que o `make` está instalado:
+
+### Linux e WSL (Ubuntu/Debian)
 ``` bash
 sudo apt update
 sudo apt install make
 ```
 
-No MacOS:
+### MacOS
 ``` zsh
 brew install make
 ```
 
 Agora, clone o repositório:
-```bash
+``` bash
 git clone https://github.com/cloudywitt/AngeloGuilherme_ws_OS_RR_2024.git
 ```
 
-E compile e execute:
+Acesse-o:
+``` bash
+cd AngeloGuilherme_ws_OS_RR_2024
+```
+
+Compile e execute:
 ``` bash
 make
 
@@ -44,7 +51,7 @@ Mude as permissões do script para torná-lo executável:
 chmod +x teste.sh
 ```
 
-Execute o script:
+Execute:
 ``` bash
 bash teste.sh
 ```
