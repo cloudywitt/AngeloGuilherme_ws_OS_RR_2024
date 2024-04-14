@@ -1,5 +1,7 @@
 # Números primos entre 1 e 1.000.000 usando threads
 
+<img src="diagrama/primes-parallel-calc-diagram.png">
+
 ## Desafio
 Desenvolver um software que imprima os números
 primos existentes entre 0 e 1.000.000. Utilize threads para cada faixa de 1000 valores crie uma
