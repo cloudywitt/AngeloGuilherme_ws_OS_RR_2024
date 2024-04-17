@@ -21,16 +21,6 @@ sudo apt install make
 brew install make
 ```
 
-Agora, clone o repositório:
-``` bash
-git clone https://github.com/cloudywitt/AngeloGuilherme_ws_OS_RR_2024.git
-```
-
-Acesse-o:
-``` bash
-cd AngeloGuilherme_ws_OS_RR_2024
-```
-
 Compile e execute:
 ``` bash
 make
