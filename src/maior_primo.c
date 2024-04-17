@@ -3,8 +3,8 @@
 #include <stdbool.h>
 #include <pthread.h>
 
-#define TARGET 4000000 // a partir daqui fica muito custoso calcular os primos
-#define THREAD_RANGE 1000 // se diminuir para 100, dá error ao criar uma thread muito grande
+#define TARGET 5000000 // a partir daqui fica muito custoso calcular os primos (demorou 11min27s)
+#define THREAD_RANGE 1000 // diminuir o número de threads, no meu pc, não aumenta performance
 #define THREAD_NUM (TARGET / THREAD_RANGE)
 
 pthread_mutex_t mutex;
