@@ -76,7 +76,6 @@ int main() {
         pthread_join(threads[i].thread, NULL);
     }
 
-
     printf("Largest prime: %zu\n", largestPrime); // 399971
 
     pthread_mutex_destroy(&mutex);
